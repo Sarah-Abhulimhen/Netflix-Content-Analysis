@@ -2,8 +2,7 @@
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?logo=powerbi)
 ![Excel](https://img.shields.io/badge/Excel-Data%20Cleaning-green?logo=microsoftexcel)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-blue)
+
 
 An end-to-end data analysis project exploring Netflix's content library to uncover trends in content growth, genre popularity, audience ratings, and global production patterns using Excel and Power BI.
 
