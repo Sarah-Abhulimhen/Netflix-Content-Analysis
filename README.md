@@ -1,18 +1,17 @@
-# Netflix Content Analysis
+# Netflix Content Analysis | Excel + Power BI
 
-![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?logo=powerbi)
 ![Excel](https://img.shields.io/badge/Excel-Data%20Cleaning-green?logo=microsoftexcel)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?logo=powerbi)
 
-
-An end-to-end data analysis project exploring Netflix's content library to uncover trends in content growth, genre popularity, audience ratings, and global production patterns using Excel and Power BI.
+An end-to-end data analytics project exploring Netflix's content library to uncover trends in content growth, audience preferences, genre popularity, and global production patterns through interactive dashboards and business intelligence reporting.
 
 ---
 
 ## Project Overview
 
-Streaming platforms rely heavily on data to drive strategic decisions around content investment, audience targeting, and market expansion. This project analyzes Netflix's publicly available content dataset to identify patterns that can inform business and operational decisions.
+Streaming platforms leverage data to make strategic decisions regarding content investments, audience engagement, and global expansion. This project analyzes Netflix's content catalog to identify trends and provide actionable business insights.
 
-The project follows a complete data analytics workflow:
+The project follows a complete analytics workflow:
 
 - Data Cleaning & Preparation
 - Exploratory Data Analysis
@@ -24,12 +23,12 @@ The project follows a complete data analytics workflow:
 
 ## Business Questions
 
-This analysis addresses the following questions:
+This analysis answers the following questions:
 
 1. How has Netflix's content library evolved over time?
-2. What is the distribution of Movies vs TV Shows?
+2. What is the distribution between Movies and TV Shows?
 3. Which genres dominate the platform?
-4. What content ratings are most common?
+4. What ratings are most common?
 5. What is the typical duration of Netflix content?
 6. Which countries contribute the most titles?
 7. How has Netflix expanded globally over the years?
@@ -39,27 +38,11 @@ This analysis addresses the following questions:
 ## Tools & Technologies
 
 | Tool | Purpose |
-|------|--------|
+|------|------|
 | Microsoft Excel | Data Cleaning & Analysis |
 | Power Query | Data Transformation |
-| Pivot Tables | Exploratory Analysis |
 | Power BI | Dashboard Development |
-| GitHub | Project Documentation |
-
----
-
-## Dataset Information
-
-| Attribute | Description |
-|----------|-------------|
-| Title | Name of content |
-| Type | Movie or TV Show |
-| Genre | Content category |
-| Rating | Audience classification |
-| Duration | Movie runtime or number of seasons |
-| Country | Producing country |
-| Release Year | Year of release |
-| Date Added | Date added to Netflix |
+| GitHub | Documentation & Version Control |
 
 ---
 
@@ -73,7 +56,7 @@ The dataset was cleaned and transformed using Excel and Power Query.
 - Replaced missing values with `"Unknown"`
 - Standardized text formatting
 - Extracted numerical values from the Duration column
-- Created a new `Duration Type` field
+- Created a `Duration Type` field
 - Validated data consistency across key columns
 
 ---
@@ -93,34 +76,47 @@ The following analyses were performed:
 
 ---
 
-## Power BI Dashboard
+## Power BI Dashboards
 
-The interactive Power BI dashboard provides stakeholders with a high-level view of Netflix's content ecosystem.
+This project includes two interactive Power BI dashboards.
 
-### Dashboard Features
+### Dashboard 1 – Netflix Content Overview Dashboard
 
-#### KPI Cards
+Provides an executive-level overview of Netflix's content ecosystem, including:
 
 - Total Titles
 - Total Movies
 - Total TV Shows
 - Top Producing Country
-
-#### Visualizations
-
 - Content Growth Over Time
-- Movies vs TV Shows Distribution
-- Top Genres
 - Ratings Distribution
-- Global Content Distribution Map
-- Duration Analysis
-- Top Producing Countries
+- Top Genres
+- Global Content Distribution
 
-#### Interactive Elements
+![Netflix Content Overview Dashboard](Netflix_Content_Overview_Dashboard.png)
 
-- Year Slicer
-- Dynamic Filtering
-- Cross-Visual Interactions
+---
+
+### Dashboard 2 – Netflix Title Explorer Dashboard
+
+Provides an interactive title-level exploration experience, including:
+
+- Movie/TV Show Selection
+- Release Year
+- Content Rating
+- Description
+- Categories
+- Directors
+- Cast Information
+- Country Availability
+
+![Netflix Title Explorer Dashboard](Netflix_Title_Explorer_Dashboard.png)
+
+---
+
+### Dashboard Report
+
+- [View Complete Dashboard PDF](./Netflix_Dashboard.pdf)
 
 ---
 
@@ -128,104 +124,57 @@ The interactive Power BI dashboard provides stakeholders with a high-level view 
 
 ### Content Growth
 
-- Netflix experienced significant growth after 2016.
-- Content additions peaked around 2019, reflecting aggressive expansion efforts.
+- Netflix experienced rapid growth after 2016.
+- Content additions peaked in 2019.
 
-### Content Type Distribution
+### Content Distribution
 
 - Movies account for approximately 70% of all titles.
-- TV Shows make up the remaining 30%.
+- TV Shows represent roughly 30% of Netflix's catalog.
 
 ### Genre Analysis
 
-- International Movies and Drama are the most represented genres.
-- Genre diversity highlights Netflix's focus on global audiences.
+- International Movies and Drama are the most common genres.
+- Netflix continues to prioritize globally appealing content.
 
 ### Ratings Analysis
 
-- TV-MA is the most common rating category.
-- The platform predominantly caters to mature audiences.
+- TV-MA is the most frequent rating category.
+- The platform predominantly serves mature audiences.
 
 ### Geographic Distribution
 
-- The United States remains Netflix's largest content contributor.
-- International content continues to grow steadily.
+- The United States remains the largest content producer.
+- International contributions continue to increase.
 
 ### Duration Trends
 
-- Most movies fall within the 101–150 minute range.
-- TV Shows commonly consist of one to three seasons.
+- Most movies fall between 101–150 minutes.
+- TV Shows commonly contain one to three seasons.
 
 ---
 
 ## Business Recommendations
 
-### 1. Continue Investing in Movie Content
+### 1. Expand High-Performing Genres
 
-- Movies remain the dominant content type on the platform.
-- Maintain investment in high-performing categories.
+- Continue investing in Drama and International Movies.
+- Explore additional opportunities in emerging genres.
 
-### 2. Expand High-Performing Genres
+### 2. Diversify Audience Reach
 
-- Increase production of Drama and International Movies.
-- Explore opportunities in emerging genre segments.
+- Increase content across underrepresented rating categories.
+- Expand offerings for younger audiences.
 
-### 3. Diversify Audience Reach
+### 3. Strengthen Global Expansion
 
-- Expand content offerings across different rating categories.
-- Target younger demographics where appropriate.
-
-### 4. Strengthen Global Expansion
-
-- Invest in content production across emerging international markets.
+- Invest further in international content production.
 - Continue leveraging regional partnerships.
 
-### 5. Optimize Content Strategy
+### 4. Optimize Content Strategy
 
 - Use duration trends to inform future production decisions.
-- Align content investments with audience viewing preferences.
-
----
-
-## Dashboards
-
-### Netflix Content Overview Dashboard
-
-Provides an executive summary of Netflix's content library, including KPIs, content growth trends, ratings distribution, top genres, and producing countries.
-
-- [View Dashboard PDF](./Netflix_Content_Overview_Dashboard.pdf)
-
-### Netflix Title Explorer Dashboard
-
-Allows users to explore individual titles, including release year, ratings, cast, directors, and country availability.
-
-- [View Dashboard PDF](./Netflix_Title_Explorer_Dashboard.pdf)
-
----
-
-### Dashboard Pages
-
-#### Dashboard 1 – Netflix Content Overview Dashboard
-
-Provides an executive-level view of Netflix's content library, including:
-
-- Total Titles
-- Total Movies & TV Shows
-- Content Growth Trends
-- Ratings Distribution
-- Top Genres
-- Top Producing Countries
-
-#### Dashboard 2 – Netflix Title Explorer Dashboard
-
-Allows users to interactively explore individual Netflix titles through:
-
-- Title Selection
-- Release Year
-- Rating Information
-- Description
-- Directors & Cast
-- Country Availability
+- Align content investments with audience preferences.
 
 ---
 
@@ -238,7 +187,8 @@ Netflix-Content-Analysis/
 ├── Netflix_Dataset.xlsx
 ├── Netflix_PowerBI.pbix
 ├── Netflix_Dashboard.pdf
-└── Images/
+├── Netflix_Content_Overview_Dashboard.png
+└── Netflix_Title_Explorer_Dashboard.png
 ```
 
 ---
@@ -248,25 +198,19 @@ Netflix-Content-Analysis/
 - Data Cleaning
 - Data Transformation
 - Exploratory Data Analysis
+- Dashboard Development
 - Data Visualization
-- Dashboard Design
-- Business Intelligence
 - Data Storytelling
 - Power Query
+- Business Intelligence
 - Power BI
-
----
-
-## Key Takeaway
-
-This project demonstrates the ability to transform raw data into meaningful business insights through effective data cleaning, analysis, visualization, and storytelling—skills essential for modern data analysts.
 
 ---
 
 ## Connect With Me
 
-- LinkedIn: https://www.linkedin.com/in/sarah-abhulimhen-7353213ba/
-- GitHub Portfolio: https://github.com/Sarah-Abhulimhen
+- LinkedIn: www.linkedin.com/in/sarah-abhulimhen-7353213ba
+- GitHub: github.com/Sarah-Abhulimhen
 - Email: sarahabhulimhen9@gmail.com
 
 ---
