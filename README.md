@@ -1,4 +1,4 @@
-# Netflix Content Analysis | Excel + Power BI
+# Netflix Content Analysis 
 
 ![Excel](https://img.shields.io/badge/Excel-Data%20Cleaning-green?logo=microsoftexcel)
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?logo=powerbi)
