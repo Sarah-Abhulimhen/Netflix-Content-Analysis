@@ -187,9 +187,19 @@ The interactive Power BI dashboard provides stakeholders with a high-level view 
 
 ---
 
-## Dashboard Preview
+## Dashboards
 
-> Dashboard PDF and screenshots are available in this repository.
+### Netflix Content Overview Dashboard
+
+Provides an executive summary of Netflix's content library, including KPIs, content growth trends, ratings distribution, top genres, and producing countries.
+
+- [View Dashboard PDF](./Netflix_Content_Overview_Dashboard.pdf)
+
+### Netflix Title Explorer Dashboard
+
+Allows users to explore individual titles, including release year, ratings, cast, directors, and country availability.
+
+- [View Dashboard PDF](./Netflix_Title_Explorer_Dashboard.pdf)
 
 ---
 
