@@ -93,7 +93,7 @@ Provides an executive-level overview of Netflix's content ecosystem, including:
 - Top Genres
 - Global Content Distribution
 
-![Netflix Content Overview Dashboard](Netflix_Content_Overview_Dashboard.png)
+![Netflix Content Overview Dashboard](Netflix_Content_Overview_Dashboard.jpg)
 
 ---
 
@@ -110,7 +110,7 @@ Provides an interactive title-level exploration experience, including:
 - Cast Information
 - Country Availability
 
-![Netflix Title Explorer Dashboard](Netflix_Title_Explorer_Dashboard.png)
+![Netflix Title Explorer Dashboard](Netflix_Title_Explorer_Dashboard.jpg)
 
 ---
 
@@ -187,8 +187,8 @@ Netflix-Content-Analysis/
 ├── Netflix_Dataset.xlsx
 ├── Netflix_PowerBI.pbix
 ├── Netflix_Dashboard.pdf
-├── Netflix_Content_Overview_Dashboard.png
-└── Netflix_Title_Explorer_Dashboard.png
+├── Netflix_Content_Overview_Dashboard.jpg
+└── Netflix_Title_Explorer_Dashboard.jpg
 ```
 
 ---
